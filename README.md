@@ -30,7 +30,12 @@ GitHub does not apply these to other repositories. They live here as the shared 
 | [`labels.yml`](labels.yml)                      | the shared label set; `scripts/sync-labels.sh` pushes it to each repository  |
 | [`.github/release.yml`](.github/release.yml)    | release-note categories; copy it into each repository's `.github/`          |
 | [`templates/dependabot.yml`](templates/dependabot.yml) | a Dependabot configuration to copy per repository                    |
+| [`brand/`](brand)                               | the official logo kit: SVGs, icons, GitHub avatar, social preview, README banners |
 | [`docs/`](docs)                                 | the owner's setup checklist and the placeholder list                         |
+
+## Brand
+
+[`brand/`](brand) is the full slide.ng logo kit; the other repositories copy only the files they use. The wordmark is Space Grotesk Bold (SIL OFL 1.1), outlined in the SVGs, so no font file is needed. The shield is original artwork. slide.ng is a community project, not affiliated with the Angular team.
 
 ## Scripts
 

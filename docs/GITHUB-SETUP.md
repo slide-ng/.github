@@ -24,7 +24,7 @@ At **github.com/organizations/slide-ng/settings/profile**:
 - [ ] **Organization display name:** `slide.ng`
 - [ ] **Description:** `Slidev-style slides in markdown, compiled with Angular.`
 - [ ] **URL:** the documentation address, `https://slide-ng.github.io/slide.ng-docs/` (change it when there is a custom domain).
-- [ ] **Profile picture:** upload the real logo (square, at least 500 x 500 px, PNG). Until then keep the default or use `profile/logo.svg` exported to PNG.
+- [ ] **Profile picture:** upload `brand/github/org-avatar-1024.png` (square PNG, dark background; GitHub shows it round, and the shield sits inside the circle). Use `org-avatar-500.png` if you want a smaller file, or `org-avatar-light-500.png` where a light background is needed.
 - [ ] **Location:** optional. **Social accounts:** add the ones that exist.
 - [ ] Leave the public email empty. Nothing in these files asks for it.
 
@@ -56,7 +56,7 @@ git push -u origin main
 | 7     | `slide.ng-vscode` |                                                                                                                       |
 | 8     | `slide.ng-skills` | create it from the folder `slide.ng/skills/slide-ng` (the agent skill) plus a README, LICENSE and a note that the core is the source of truth. It is mirrored from the core, so it is never edited by hand. Decide how the mirror is copied (a script in the core, or a workflow with a token, see [step 10](#10-secrets-and-variables)). |
 
-- [ ] All eight pushed. Open <https://github.com/slide-ng> and check that the profile page (`profile/README.md`) shows, with the logo placeholder.
+- [ ] All eight pushed. Open <https://github.com/slide-ng> and check that the profile page (`profile/README.md`) shows, with the logo banner (light or dark by theme).
 - [ ] Open a new issue in `slide.ng-themes`: it should show the bug and feature forms of that repository (their own templates win over the defaults here). A repository without its own `.github/ISSUE_TEMPLATE` (for example `slide.ng-skills`) shows the forms of this repository.
 
 ## 5. Discussions
@@ -201,7 +201,7 @@ For each repository: the gear icon next to **About** on the repository page. Pas
 
 - [ ] One image per repository: **Settings > General > Social preview > Upload an image**. Size **1280 x 640 px** (2:1), PNG or JPG under 1 MB. GitHub accepts 640 x 320 as a minimum, but 1280 x 640 stays sharp.
 - [ ] Keep text and the logo inside the centre, about 40 px away from every edge, because the preview is cropped on some networks. Use the same layout across repositories with the repository name as the only change.
-- [ ] For the organization, the profile picture is the preview; there is no separate organization banner.
+- [ ] Upload `brand/github/social-preview-1280x640.png` for every repository (it is already 1280 x 640 with the logo inside the safe area). For the organization, the profile picture is the preview; there is no separate organization banner.
 - [ ] The documentation site has its own `og:image` (see `seoMeta` in its config); it is not the GitHub one.
 
 ## 16. npm: the scope and the publish order

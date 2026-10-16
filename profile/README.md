@@ -1,7 +1,7 @@
-<p align="center">
-  <!-- Placeholder logo, to be replaced by the real one. -->
-  <img src="logo.svg" alt="slide.ng" width="96" height="96">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../brand/github/readme-banner-dark.png">
+  <img alt="slide.ng" src="../brand/github/readme-banner-light.png" width="800">
+</picture>
 
 # slide.ng
 
@@ -25,4 +25,4 @@ Slidev-style slides written in markdown and compiled with Angular.
 - [How to contribute](https://github.com/slide-ng/.github/blob/main/CONTRIBUTING.md)
 - [Sponsor the work](https://github.com/sponsors/erkamyaman)
 
-slide.ng is inspired by [Slidev](https://sli.dev) (MIT), whose syntax and ideas it follows.
+slide.ng is inspired by [Slidev](https://sli.dev) (MIT), whose syntax and ideas it follows. slide.ng is a community project, not affiliated with the Angular team.
