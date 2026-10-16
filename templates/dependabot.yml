@@ -1,0 +1,52 @@
+# Recommended Dependabot configuration. GitHub does not inherit this file:
+# copy it to .github/dependabot.yml in a repository and delete the blocks that
+# repository does not need.
+#
+#   npm              every repository with a package.json (use `pnpm` for slide.ng-docs,
+#                    Dependabot reads pnpm-lock.yaml under the `npm` ecosystem)
+#   github-actions   every repository with workflows
+#   docker           slide.ng-docker only (Dockerfile)
+#
+# Updates are grouped so that a week gives one pull request per ecosystem group
+# instead of one per package. Commit messages follow the type(scope): summary form.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: 'build(deps)'
+      prefix-development: 'build(deps-dev)'
+    labels: [dependencies]
+    groups:
+      angular:
+        patterns: ['@angular/*', '@angular-devkit/*', 'ng-packagr', 'zone.js']
+      dev-tools:
+        dependency-type: development
+        update-types: [minor, patch]
+    ignore:
+      # Majors of these move with the Angular version; update them with the angular group by hand.
+      - dependency-name: typescript
+        update-types: [version-update:semver-major]
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: 'ci(deps)'
+    labels: [dependencies]
+    groups:
+      actions:
+        patterns: ['*']
+
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: 'build(docker)'
+    labels: [dependencies]
