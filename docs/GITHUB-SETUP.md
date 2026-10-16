@@ -147,10 +147,11 @@ Read from the workflows in `.github/workflows` of each repository. Only the Dock
 
 ## 11. All Contributors bot
 
-The contributing guide mentions `@all-contributors please add`. None of the repositories has the configuration yet.
+The contributing guide mentions `@all-contributors please add`. Every repository except the starter ships `.all-contributorsrc` and the contributors markers in its README, with `erkamyaman` as the first entry.
 
 - [ ] Install the app: <https://github.com/apps/allcontributors> > **Install** > the organization > select the repositories (or all).
-- [ ] In each repository, create `.all-contributorsrc` (the bot can do it: comment `@all-contributors please add @erkamyaman for code` on any issue and follow its instructions), then add the contributors table markers to the README (`<!-- ALL-CONTRIBUTORS-LIST:START -->` ... `END`). Do it only in the core and the docs at first.
+- [ ] Check that each repository has `.all-contributorsrc` with `projectOwner` set to the real organization name (`scripts/set-org.sh` does not touch it in other repositories, so edit it by hand).
+- [ ] Test the bot: comment `@all-contributors please add @erkamyaman for code` on an issue. It should answer with a pull request.
 
 ## 12. Dependabot or Renovate
 
