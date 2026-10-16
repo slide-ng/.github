@@ -23,7 +23,7 @@ At **github.com/organizations/slide-ng/settings/profile**:
 
 - [ ] **Organization display name:** `slide.ng`
 - [ ] **Description:** `Slidev-style slides in markdown, compiled with Angular.`
-- [ ] **URL:** the documentation address, `https://slide-ng.github.io/slide.ng-docs/` (change it when there is a custom domain).
+- [ ] **URL:** the documentation address, `https://slide-ng.dev/` (change it when there is a custom domain).
 - [ ] **Profile picture:** upload `brand/github/org-avatar-1024.png` (square PNG, dark background; GitHub shows it round, and the shield sits inside the circle). Use `org-avatar-500.png` if you want a smaller file, or `org-avatar-light-500.png` where a light background is needed.
 - [ ] **Location:** optional. **Social accounts:** add the ones that exist.
 - [ ] Leave the public email empty. Nothing in these files asks for it.
@@ -118,7 +118,7 @@ Use **Settings > Rules > Rulesets > New ruleset > New branch ruleset**. The orga
 **slide.ng-docs** (`.github/workflows/deploy.yml` publishes `dist/analog/public`):
 
 - [ ] **Settings > Pages > Build and deployment > Source: GitHub Actions.**
-- [ ] The site is built for the root of a host (`site.base: '/'` in `src/ngmd.config.ts`, `url: 'https://slide-ng.github.io'`). A project site lives at `https://slide-ng.github.io/slide.ng-docs/`, so either set `NGMD_BASE=/slide.ng-docs/` in the deploy workflow's build step (or change `base` in the config), or add a custom domain and keep `/`. Without one of these the links and assets break.
+- [ ] The site is built for the root of a host (`site.base: '/'` in `src/ngmd.config.ts`, `url: 'https://slide-ng.dev'`). A project site lives at `https://slide-ng.dev/`, so either set `NGMD_BASE=/slide.ng-docs/` in the deploy workflow's build step (or change `base` in the config), or add a custom domain and keep `/`. Without one of these the links and assets break.
 - [ ] Push to `main` or run the **Deploy** workflow by hand. Open the URL it prints. If the first run fails on the `github-pages` environment, check **Settings > Environments > github-pages > Deployment branches** allows `main`.
 - [ ] Custom domain (later): **Settings > Pages > Custom domain**, add the DNS record GitHub asks for, tick **Enforce HTTPS**, and update `url` in the config and the organization URL from step 2.
 
@@ -184,13 +184,13 @@ For each repository: the gear icon next to **About** on the repository page. Pas
 
 | repository         | description                                                                                      | website                                      | topics                                                                                                     |
 | ------------------ | ------------------------------------------------------------------------------------------------ | -------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| `slide.ng`         | Slidev-style presentations written in markdown, compiled with Angular. The core app and the `slide-ng` command line. | `https://slide-ng.github.io/slide.ng-docs/`  | `slide-ng`, `slidev`, `angular`, `presentation`, `markdown`, `slides`, `slide-deck`, `typescript`, `cli`, `presentation-tools` |
-| `slide.ng-themes`  | The official themes for slide.ng, one npm package each (`@slide-ng/theme-*`).                    | `https://slide-ng.github.io/slide.ng-docs/`  | `slide-ng`, `slidev`, `angular`, `theme`, `themes`, `presentation`, `slides`, `markdown`                   |
+| `slide.ng`         | Slidev-style presentations written in markdown, compiled with Angular. The core app and the `slide-ng` command line. | `https://slide-ng.dev/`  | `slide-ng`, `slidev`, `angular`, `presentation`, `markdown`, `slides`, `slide-deck`, `typescript`, `cli`, `presentation-tools` |
+| `slide.ng-themes`  | The official themes for slide.ng, one npm package each (`@slide-ng/theme-*`).                    | `https://slide-ng.dev/`  | `slide-ng`, `slidev`, `angular`, `theme`, `themes`, `presentation`, `slides`, `markdown`                   |
 | `slide.ng-starter` | A template deck for slide.ng: use the template, write `slides.md`, publish to GitHub Pages.      | `https://slide-ng.github.io/slide.ng-starter/` | `slide-ng`, `slidev`, `angular`, `template`, `starter`, `presentation`, `slides`, `markdown`, `github-pages` |
-| `slide.ng-docs`    | The documentation site for slide.ng.                                                             | `https://slide-ng.github.io/slide.ng-docs/`  | `slide-ng`, `documentation`, `docs`, `angular`, `analog`, `slidev`, `presentation`, `markdown`            |
-| `slide.ng-docker`  | A Docker image that runs slide.ng decks: live dev server, static build, export and a small static server. | `https://slide-ng.github.io/slide.ng-docs/`  | `slide-ng`, `docker`, `dockerfile`, `container`, `slidev`, `angular`, `presentation`, `slides`            |
-| `slide.ng-vscode`  | Editor support for slide.ng decks in Visual Studio Code: syntax highlighting and slide commands. | `https://slide-ng.github.io/slide.ng-docs/`  | `slide-ng`, `vscode`, `vscode-extension`, `slidev`, `angular`, `markdown`, `presentation`, `syntax-highlighting` |
-| `slide.ng-skills`  | The agent skill for writing slide.ng decks, mirrored from the core. Do not edit here.            | `https://slide-ng.github.io/slide.ng-docs/`  | `slide-ng`, `agent-skills`, `skills`, `slidev`, `angular`, `presentation`, `markdown`, `slides`           |
+| `slide.ng-docs`    | The documentation site for slide.ng.                                                             | `https://slide-ng.dev/`  | `slide-ng`, `documentation`, `docs`, `angular`, `analog`, `slidev`, `presentation`, `markdown`            |
+| `slide.ng-docker`  | A Docker image that runs slide.ng decks: live dev server, static build, export and a small static server. | `https://slide-ng.dev/`  | `slide-ng`, `docker`, `dockerfile`, `container`, `slidev`, `angular`, `presentation`, `slides`            |
+| `slide.ng-vscode`  | Editor support for slide.ng decks in Visual Studio Code: syntax highlighting and slide commands. | `https://slide-ng.dev/`  | `slide-ng`, `vscode`, `vscode-extension`, `slidev`, `angular`, `markdown`, `presentation`, `syntax-highlighting` |
+| `slide.ng-skills`  | The agent skill for writing slide.ng decks, mirrored from the core. Do not edit here.            | `https://slide-ng.dev/`  | `slide-ng`, `agent-skills`, `skills`, `slidev`, `angular`, `presentation`, `markdown`, `slides`           |
 | `.github`          | Organization profile, default community health files and shared labels for slide.ng.             | (empty)                                      | `github`, `community-health`, `slide-ng`                                                                   |
 
 - [ ] Every repository carries `slide-ng`; the core also has `slidev`, `angular`, `presentation`, `markdown` and `slides`. The other topics are suggestions; trim them if you prefer fewer.
@@ -239,7 +239,7 @@ For each repository: the gear icon next to **About** on the repository page. Pas
 - [ ] A new pull request in such a repository is filled with the template.
 - [ ] The Sponsor button shows on a repository without its own `FUNDING.yml`.
 - [ ] The Community Standards page (`Insights > Community Standards`) of each repository is green: description, README, code of conduct, contributing, license, security policy, issue templates, pull request template.
-- [ ] `https://slide-ng.github.io/slide.ng-docs/` and `.../slide.ng-starter/` load.
+- [ ] `https://slide-ng.dev/` and `.../slide.ng-starter/` load.
 
 ## 19. Replace the placeholders
 

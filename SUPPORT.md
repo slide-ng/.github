@@ -2,7 +2,7 @@
 
 | you want to                         | go to                                                                                       |
 | ----------------------------------- | ------------------------------------------------------------------------------------------- |
-| learn how something works           | the [documentation](https://slide-ng.github.io/slide.ng-docs/)                              |
+| learn how something works           | the [documentation](https://slide-ng.dev/)                              |
 | ask a question or share an idea     | [Discussions](https://github.com/orgs/slide-ng/discussions)                                 |
 | report a bug                        | open an issue in the repository concerned, with the bug form                                |
 | ask for a feature                   | open an issue with the feature form, after searching the existing ones                      |

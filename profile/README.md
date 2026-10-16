@@ -21,7 +21,7 @@ Slidev-style slides written in markdown and compiled with Angular.
 
 ## Links
 
-- [Documentation](https://slide-ng.github.io/slide.ng-docs/)
+- [Documentation](https://slide-ng.dev/)
 - [How to contribute](https://github.com/slide-ng/.github/blob/main/CONTRIBUTING.md)
 - [Sponsor the work](https://github.com/sponsors/erkamyaman)
 
