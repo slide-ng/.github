@@ -8,9 +8,11 @@ Only the latest release of each project is supported, and until a project has a 
 
 ## Report a vulnerability
 
-Use GitHub's private vulnerability reporting. Open the **Security** tab of the repository concerned and choose **Report a vulnerability**. If the repository has no such button, open it for `slide.ng` and name the repository in your report. No email address is published for security reports.
+Use GitHub's private vulnerability reporting. Open the **Security** tab of the repository concerned and choose **Report a vulnerability**. If the repository has no such button, open it for `slide.ng` and name the repository in your report.
 
 Please do not open a public issue, discussion or pull request for a vulnerability.
+
+If you cannot use GitHub, email erkamyaman35@gmail.com with "Security" in the subject.
 
 A good report says:
 

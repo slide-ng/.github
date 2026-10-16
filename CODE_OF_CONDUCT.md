@@ -36,9 +36,11 @@ This Code of Conduct applies within all community spaces, and also applies when 
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior can be reported to the community leaders through GitHub. Use "Report content" on the comment, issue or pull request. To report something that is not on GitHub, or to say more than that form allows, open a private report on the repository concerned: the **Security** tab, then **Report a vulnerability** (<https://github.com/slide-ng/.github/security/advisories/new>), and start the report with "Code of Conduct". No email address is published for this.
+Instances of abusive, harassing, or otherwise unacceptable behavior can be reported to the community leaders through GitHub. Use "Report content" on the comment, issue or pull request. To report something that is not on GitHub, or to say more than that form allows, open a private report on the repository concerned: the **Security** tab, then **Report a vulnerability** (<https://github.com/slide-ng/.github/security/advisories/new>), and start the report with "Code of Conduct".
 
 All complaints will be reviewed and investigated promptly and fairly.
+
+If you cannot use GitHub, email erkamyaman35@gmail.com with "Code of Conduct" in the subject.
 
 All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
