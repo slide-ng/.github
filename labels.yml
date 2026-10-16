@@ -15,6 +15,9 @@
 - name: breaking changes
   color: 'b60205'
   description: Users must change something when they upgrade
+- name: dependencies
+  color: '0366d6'
+  description: Dependency updates (Dependabot)
 - name: 'release: skip'
   color: 'ededed'
   description: Leave out of the generated release notes
