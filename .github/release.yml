@@ -1,0 +1,23 @@
+# Groups the pull requests in the generated release notes by label.
+# GitHub does not inherit this file from the organization .github repository:
+# copy it to .github/release.yml in each repository that publishes releases.
+changelog:
+  exclude:
+    labels:
+      - 'release: skip'
+  categories:
+    - title: Breaking changes
+      labels:
+        - breaking changes
+    - title: New features
+      labels:
+        - feature
+    - title: Fixes
+      labels:
+        - bug
+    - title: Documentation
+      labels:
+        - 'area: docs'
+    - title: Other changes
+      labels:
+        - '*'
