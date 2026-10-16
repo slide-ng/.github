@@ -1,0 +1,93 @@
+# The shared label set. scripts/sync-labels.sh creates or updates these in every
+# repository listed in org.env. GitHub does not inherit labels, so run it for new repositories.
+# Colours are hex without the leading #.
+
+# Type
+- name: bug
+  color: 'd73a4a'
+  description: Something does not work as documented
+- name: feature
+  color: '0e8a16'
+  description: A new capability or an improvement
+- name: 'area: docs'
+  color: '0075ca'
+  description: Documentation only
+- name: breaking changes
+  color: 'b60205'
+  description: Users must change something when they upgrade
+- name: 'release: skip'
+  color: 'ededed'
+  description: Leave out of the generated release notes
+
+# Priority
+- name: P0
+  color: 'b60205'
+  description: Critical, drop everything (security, data loss, broken release)
+- name: P1
+  color: 'd93f0b'
+  description: High, fix in the next release
+- name: P2
+  color: 'fbca04'
+  description: Normal, fix when there is time
+- name: P3
+  color: 'c5def5'
+  description: Low, nice to have
+
+# Area
+- name: 'area: core'
+  color: '1d76db'
+  description: The slide.ng app, generator and runtime
+- name: 'area: themes'
+  color: '5319e7'
+  description: Themes and addons
+- name: 'area: export'
+  color: '006b75'
+  description: PDF, PNG, PPTX and Markdown export
+- name: 'area: presenter'
+  color: '7057ff'
+  description: Presenter view, notes, drawing and sync
+- name: 'area: cli'
+  color: '0052cc'
+  description: The command line and project creation
+- name: 'area: mcp'
+  color: '1f6feb'
+  description: The MCP server
+- name: 'area: security'
+  color: 'e11d21'
+  description: Security related, not an unfixed vulnerability (report those privately)
+- name: 'area: performance'
+  color: 'f9a825'
+  description: Speed, memory or bundle size
+- name: 'area: accessibility'
+  color: '0e8a8a'
+  description: Keyboard, screen reader, contrast and motion
+
+# Triage
+- name: needs triage
+  color: 'ededed'
+  description: Not looked at yet
+- name: needs reproduction
+  color: 'd4c5f9'
+  description: Waiting for a minimal slides.md or steps that show it
+
+# State
+- name: 'state: confirmed'
+  color: '0e8a16'
+  description: Reproduced and accepted
+- name: 'state: blocked'
+  color: '5b6573'
+  description: Waiting on something else
+- name: 'state: WIP'
+  color: 'fef2c0'
+  description: Someone is working on it
+
+# Community
+- name: good first issue
+  color: '7057ff'
+  description: Small and well described, good for a first contribution
+- name: help wanted
+  color: '008672'
+  description: Open to anyone
+- name: no-docs
+  color: 'cfd3d7'
+  description: This change needs no documentation change
