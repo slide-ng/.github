@@ -1,0 +1,6 @@
+# Shows the Sponsor button on every repository of the organization.
+# To change who is listed: edit the list below. One or more GitHub usernames
+# or organization names go in `github:` and each needs GitHub Sponsors turned on.
+# Other platforms use the same file: open_collective, ko_fi, liberapay,
+# patreon, buy_me_a_coffee, thanks_dev, or custom (a list of URLs).
+github: [erkamyaman]
