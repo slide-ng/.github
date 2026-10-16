@@ -127,7 +127,7 @@ Use **Settings > Rules > Rulesets > New ruleset > New branch ruleset**. The orga
 - [ ] **Settings > Pages > Source: GitHub Actions.** The deck is then at `https://slide-ng.github.io/slide.ng-starter/`.
 - [ ] **Settings > General > Template repository:** tick it, so that **Use this template** shows.
 - [ ] The *Export PDF* workflow needs no secret. Run it once to check it.
-- [ ] The workflows install `slide-ng` from npm (`"slide-ng": "latest"`), so Pages only builds after the core is published ([step 16](#16-npm-the-scope-and-the-publish-order)).
+- [ ] The workflows install `@slide-ng/core` from npm (`"@slide-ng/core": "latest"`), so Pages only builds after the core is published ([step 16](#16-npm-the-scope-and-the-publish-order)).
 
 ## 10. Secrets and variables
 
@@ -215,15 +215,15 @@ For each repository: the gear icon next to **About** on the repository page. Pas
 
 | #   | publish                              | what first                                                                                                           | flips in the repository                                                                                               |
 | --- | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| 1   | `slide.ng` -> npm `slide-ng`         | check the `files` list with `npm pack --dry-run`; set a real version (now `0.0.0`); update `CHANGELOG.md`            | `package.json`: remove `"private": true` (line 22); the `homepage`, `bugs` and `repository` URLs if the organization name changed |
-| 2   | `slide.ng-themes` -> `@slide-ng/theme-apple-basic`, `-bricks`, `-seriph`, `-shibainu` | the themes have `peerDependencies: { "slide-ng": "*" }` and are tested against a core checkout (`SLIDE_NG_DIR`); run the tests against the published core | the monorepo root `package.json` stays `"private": true` (it is not published; the four packages have no `private` and `publishConfig.access: public`). Set each package version; each package's `repository`, `homepage` and `bugs` URLs |
-| 3   | `slide.ng-starter`                   | it depends on `"slide-ng": "latest"`, so it works as soon as step 1 is done. It is a template, not an npm package    | keep `"private": true` (never published). Check the `README` and `slides.md` mention of `@slide-ng/...`              |
+| 1   | `slide.ng` -> npm `@slide-ng/core`         | check the `files` list with `npm pack --dry-run`; set a real version (now `0.0.0`); update `CHANGELOG.md`            | `package.json`: remove `"private": true` (line 22); the `homepage`, `bugs` and `repository` URLs if the organization name changed |
+| 2   | `slide.ng-themes` -> `@slide-ng/theme-apple-basic`, `-bricks`, `-seriph`, `-shibainu` | the themes have `peerDependencies: { "@slide-ng/core": "*" }` and are tested against a core checkout (`SLIDE_NG_DIR`); run the tests against the published core | the monorepo root `package.json` stays `"private": true` (it is not published; the four packages have no `private` and `publishConfig.access: public`). Set each package version; each package's `repository`, `homepage` and `bugs` URLs |
+| 3   | `slide.ng-starter`                   | it depends on `"@slide-ng/core": "latest"`, so it works as soon as step 1 is done. It is a template, not an npm package    | keep `"private": true` (never published). Check the `README` and `slides.md` mention of `@slide-ng/...`              |
 | 4   | `slide.ng-docs`                      | the site is not an npm package                                                                                       | keep `"private": true`. Turn Pages on (step 9). Deploy after the core and themes are on npm if the docs install them  |
-| 5   | `slide.ng-docker` -> ghcr.io image   | build with `SLIDE_NG_SOURCE=slide-ng@<version>`; follow "Publishing the image" in its README (login to ghcr, `packages: write`) | no `private` flag. In `.github/workflows/build.yml` change `SLIDE_NG_REPO` if the name changed, and decide whether to keep the pack-from-source path |
+| 5   | `slide.ng-docker` -> ghcr.io image   | build with `SLIDE_NG_SOURCE=@slide-ng/core@<version>`; follow "Publishing the image" in its README (login to ghcr, `packages: write`) | no `private` flag. In `.github/workflows/build.yml` change `SLIDE_NG_REPO` if the name changed, and decide whether to keep the pack-from-source path |
 | 6   | `slide.ng-vscode` -> Marketplace     | create the publisher `slide-ng` at <https://marketplace.visualstudio.com/manage> (Azure DevOps account needed) and the `VSCE_PAT`; optionally Open VSX; the extension runs `npx --no-install slide-ng` by default, so the core must exist for users | `package.json`: remove `"private": true` (line 8), keep `publisher: slide-ng` or change it to the real publisher id, update the repository URL. First test the `.vsix` by hand in VS Code (the README says that was not checked) |
 | 7   | `slide.ng-skills`                    | mirror `slide.ng/skills/slide-ng` after the core is released, so the skill matches the version                        | n/a                                                                                                                   |
 
-- [ ] After step 1: `npm install slide-ng` in an empty folder, then `npx slide-ng create my-deck && cd my-deck && npx slide-ng build`.
+- [ ] After step 1: `npm install @slide-ng/core` in an empty folder, then `npx slide-ng create my-deck && cd my-deck && npx slide-ng build`.
 - [ ] After step 2: `npm i -D @slide-ng/theme-seriph` in that deck, set `theme: seriph` and build.
 - [ ] Never publish with `--tag latest` by hand from a dirty tree. Use `npm publish --provenance` from the workflow.
 
