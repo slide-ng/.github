@@ -1,0 +1,51 @@
+name: Bug report
+description: Something does not work, or works differently from the documentation
+labels: [bug, needs triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. A short, exact report is the quickest way to a fix.
+        For a question, use Discussions instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Say what you did, what you expected and what you got instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: The smallest `slides.md` or list of steps that shows the problem. Paste it, or link a repository.
+      render: markdown
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: The version of this project, or the commit if you run it from source.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Node.js version, operating system and browser (or editor, for the extension).
+      placeholder: Node 22, Ubuntu 24.04, Chromium
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console or terminal output
+      render: shell
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I searched the existing issues, including closed ones.
+          required: true
+        - label: I read the documentation for this feature.
+          required: true
