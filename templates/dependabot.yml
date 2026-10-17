@@ -2,10 +2,10 @@
 # copy it to .github/dependabot.yml in a repository and delete the blocks that
 # repository does not need.
 #
-#   npm              every repository with a package.json (use `pnpm` for slide.ng-docs,
+#   npm              every repository with a package.json (use `pnpm` for docs,
 #                    Dependabot reads pnpm-lock.yaml under the `npm` ecosystem)
 #   github-actions   every repository with workflows
-#   docker           slide.ng-docker only (Dockerfile)
+#   docker           docker only (Dockerfile)
 #
 # Updates are grouped so that a week gives one pull request per ecosystem group
 # instead of one per package. Commit messages follow the type(scope): summary form.

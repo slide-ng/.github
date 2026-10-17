@@ -9,15 +9,15 @@ Slidev-style slides written in markdown and compiled with Angular.
 
 ## Repositories
 
-| repository                                                       | what it is                                      |
-| ---------------------------------------------------------------- | ----------------------------------------------- |
-| [slide.ng](https://github.com/slide-ng/slide.ng)                 | the core app and the command line               |
-| [slide.ng-themes](https://github.com/slide-ng/slide.ng-themes)   | the official themes                             |
-| [slide.ng-starter](https://github.com/slide-ng/slide.ng-starter) | a template deck to start from                   |
-| [slide.ng-docs](https://github.com/slide-ng/slide.ng-docs)       | the documentation site                          |
-| [slide.ng-docker](https://github.com/slide-ng/slide.ng-docker)   | a Docker image to build and serve decks         |
-| [slide.ng-vscode](https://github.com/slide-ng/slide.ng-vscode)   | the Visual Studio Code extension                |
-| [slide.ng-skills](https://github.com/slide-ng/slide.ng-skills)   | an agent skill, mirrored from the core          |
+| repository                                                       | what it is                              |
+| ---------------------------------------------------------------- | --------------------------------------- |
+| [slide.ng](https://github.com/slide-ng/slide.ng)                 | the core app and the command line       |
+| [themes](https://github.com/slide-ng/themes)                     | the official themes                     |
+| [starter](https://github.com/slide-ng/starter)                   | a template deck to start from           |
+| [docs](https://github.com/slide-ng/docs)                         | the documentation site                  |
+| [docker](https://github.com/slide-ng/docker)                     | a Docker image to build and serve decks |
+| [vscode-extension](https://github.com/slide-ng/vscode-extension) | the Visual Studio Code extension        |
+| [skills](https://github.com/slide-ng/skills)                     | an agent skill, mirrored from the core  |
 
 ## Links
 

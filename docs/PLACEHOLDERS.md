@@ -13,165 +13,165 @@ by category:
   private      6
 by repository:
   slide.ng           64
-  slide.ng-docker    17
-  slide.ng-docs      16
-  slide.ng-skills    33
-  slide.ng-starter   6
-  slide.ng-themes    52
-  slide.ng-vscode    19
+  docker    17
+  docs      16
+  skills    33
+  starter   6
+  themes    52
+  vscode-extension    19
 ```
 
 | category    | file:line                                                                  | text                                                                                                                |
 | ----------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| org-url     | `slide.ng-docker/CHANGELOG.md:20`                                          | `[Unreleased]: https://github.com/slide-ng/slide.ng-docker/compare/v0.1.0...HEAD`                                   |
-| org-url     | `slide.ng-docker/CHANGELOG.md:21`                                          | `[0.1.0]: https://github.com/slide-ng/slide.ng-docker/commits/main`                                                 |
-| org-url     | `slide.ng-docker/CONTRIBUTING.md:16`                                       | `git clone https://github.com/slide-ng/slide.ng-docker.git`                                                         |
-| org-url     | `slide.ng-docker/README.md:8`                                              | `A Docker image that runs [slide.ng](https://github.com/slide-ng/slide.ng) decks: live dev server, static bu...`    |
-| org-url     | `slide.ng-docker/README.md:232`                                            | `- [slide.ng](https://github.com/slide-ng/slide.ng): the presentation tool itself.`                                 |
-| org-url     | `slide.ng-docker/README.md:233`                                            | `- [slide.ng-themes](https://github.com/slide-ng/slide.ng-themes): the official themes.`                            |
-| org-url     | `slide.ng-docker/README.md:234`                                            | `- [slide.ng-starter](https://github.com/slide-ng/slide.ng-starter): a starter deck to copy.`                       |
-| org-url     | `slide.ng-docker/README.md:235`                                            | `- [slide.ng-docs](https://github.com/slide-ng/slide.ng-docs): the documentation site.`                             |
-| org-url     | `slide.ng-docker/README.md:236`                                            | `- [slide.ng-docker](https://github.com/slide-ng/slide.ng-docker): this container image.`                           |
-| org-url     | `slide.ng-docker/README.md:237`                                            | `- [slide.ng-vscode](https://github.com/slide-ng/slide.ng-vscode): a Visual Studio Code extension.`                 |
-| placeholder | `slide.ng-docker/README.md:239`                                            | `These addresses are placeholders until the repositories are published.`                                            |
-| org-url     | `slide.ng-docker/README.md:245`                                            | `Repository address used in this text: https://github.com/slide-ng/slide.ng-docker (a placeholder until the ...`    |
-| org-url     | `slide.ng-docker/README.md:269`                                            | `<td align="center" valign="top" width="14.28%"><a href="https://github.com/erkamyaman"><img src="https://av...`    |
-| org-url     | `slide.ng-docker/SECURITY.md:8`                                            | `**Report a vulnerability** (https://github.com/slide-ng/slide.ng-docker/security/advisories/new).`                 |
-| org-url     | `slide.ng-docker/.github/ISSUE_TEMPLATE/config.yml:4`                      | `url: https://github.com/slide-ng/slide.ng-docker/security/advisories/new`                                          |
-| org-url     | `slide.ng-docker/.github/workflows/build.yml:20`                           | `SLIDE_NG_REPO: slide-ng/slide.ng`                                                                                  |
-| org-url     | `slide.ng-docker/.github/workflows/build.yml:61`                           | `repository: ${{ env.SLIDE_NG_REPO }}`                                                                              |
-| org-url     | `slide.ng-docs/README.md:3`                                                | `The documentation website for [slide.ng](https://github.com/slide-ng/slide.ng), a slide deck tool that turn...`    |
-| org-url     | `slide.ng-docs/README.md:71`                                               | `The site is built for the root of a host ('https://docs.example.org/') by default. To serve it from a sub-p...`    |
-| org-url     | `slide.ng-docs/README.md:119`                                              | `<td align="center" valign="top" width="14.28%"><a href="https://github.com/erkamyaman"><img src="https://av...`    |
-| private     | `slide.ng-docs/package.json:81`                                            | `"private": true,`                                                                                                  |
-| org-url     | `slide.ng-docs/package.json:84`                                            | `"url": "git+https://github.com/slide-ng/slide.ng-docs.git"`                                                        |
-| org-url     | `slide.ng-docs/package.json:87`                                            | `"url": "https://github.com/slide-ng/slide.ng-docs/issues"`                                                         |
-| org-url     | `slide.ng-docs/package.json:89`                                            | `"homepage": "https://github.com/slide-ng/slide.ng-docs#readme",`                                                   |
-| npm-scope   | `slide.ng-docs/src/content/customize/themes.md:23`                         | `- Any other name is looked up in 'node_modules', from the deck's folder upwards: '@slide-ng/theme-<name>', ...`    |
-| npm-scope   | `slide.ng-docs/src/content/customize/themes.md:32`                         | `npm i -D @slide-ng/theme-seriph`                                                                                   |
-| npm-scope   | `slide.ng-docs/src/content/customize/theme-gallery.md:8`                   | `The official themes are ports of the official Slidev themes, rebuilt as Angular code for slide.ng. Each one...`    |
-| npm-scope   | `slide.ng-docs/src/content/customize/writing-a-theme.md:88`                | `A theme is a folder, so publish it as an npm package with these folders at the top of the package. slide.ng...`    |
-| org-url     | `slide.ng-docs/src/content/features/format.md:18`                          | `Files that 'src:' imports are not touched. Name them as arguments to format them too. A file that is alread...`    |
-| org-url     | `slide.ng-docs/src/content/getting-started/install.md:23`                  | `git clone https://github.com/slide-ng/slide.ng.git`                                                                |
-| org-url     | `slide.ng-docs/src/content/project/contributing.md:13`                     | `git clone https://github.com/slide-ng/slide.ng.git`                                                                |
-| placeholder | `slide.ng-docs/src/ngmd.config.ts:149`                                     | `// Placeholder origin. For a project site (github.io/<repo>/) set 'base' below, or build with`                     |
-| org-url     | `slide.ng-docs/src/ngmd.config.ts:154`                                     | `githubUrl: 'https://github.com/slide-ng/slide.ng-docs',`                                                           |
-| org-url     | `slide.ng-skills/CHANGELOG.md:18`                                          | `[Unreleased]: https://github.com/slide-ng/slide.ng-skills/compare/v0.0.0...HEAD`                                   |
-| org-url     | `slide.ng-skills/CHANGELOG.md:19`                                          | `[0.0.0]: https://github.com/slide-ng/slide.ng-skills/commits/main`                                                 |
-| org-url     | `slide.ng-skills/CONTRIBUTING.md:5`                                        | `**Do not edit anything under 'skills/' in this repository.** It is a mirror of 'skills/slide-ng' in the [sl...`    |
-| org-url     | `slide.ng-skills/CONTRIBUTING.md:32`                                       | `git clone https://github.com/slide-ng/slide.ng-skills.git`                                                         |
-| org-url     | `slide.ng-skills/README.md:8`                                              | `A standalone, installable copy of the agent skill for [slide.ng](https://github.com/slide-ng/slide.ng): a f...`    |
-| org-url     | `slide.ng-skills/README.md:51`                                             | `git clone --depth 1 https://github.com/slide-ng/slide.ng-skills.git`                                               |
-| org-url     | `slide.ng-skills/README.md:114`                                            | `- [slide.ng](https://github.com/slide-ng/slide.ng): the presentation tool itself, and the source of this sk...`    |
-| org-url     | `slide.ng-skills/README.md:115`                                            | `- [slide.ng-themes](https://github.com/slide-ng/slide.ng-themes): the official themes.`                            |
-| org-url     | `slide.ng-skills/README.md:116`                                            | `- [slide.ng-starter](https://github.com/slide-ng/slide.ng-starter): a starter deck to copy.`                       |
-| org-url     | `slide.ng-skills/README.md:117`                                            | `- [slide.ng-docs](https://github.com/slide-ng/slide.ng-docs): the documentation site.`                             |
-| org-url     | `slide.ng-skills/README.md:118`                                            | `- [slide.ng-docker](https://github.com/slide-ng/slide.ng-docker): a container image for building and servin...`    |
-| org-url     | `slide.ng-skills/README.md:119`                                            | `- [slide.ng-vscode](https://github.com/slide-ng/slide.ng-vscode): a Visual Studio Code extension.`                 |
-| org-url     | `slide.ng-skills/README.md:120`                                            | `- [slide.ng-skills](https://github.com/slide-ng/slide.ng-skills): the agent skill (this repository).`              |
-| org-url     | `slide.ng-skills/README.md:121`                                            | `- [slide.ng-org-github](https://github.com/slide-ng/slide.ng-org-github): the organization's '.github' repo...`    |
-| placeholder | `slide.ng-skills/README.md:123`                                            | `These addresses are placeholders until the repositories are published.`                                            |
-| org-url     | `slide.ng-skills/SECURITY.md:7`                                            | `(<https://github.com/slide-ng/slide.ng-skills/security/advisories/new>).`                                          |
-| org-url     | `slide.ng-skills/SOURCE.json:4`                                            | `"repository": "https://github.com/slide-ng/slide.ng",`                                                             |
-| private     | `slide.ng-skills/package.json:3`                                           | `"private": true,`                                                                                                  |
-| org-url     | `slide.ng-skills/scripts/lib/skill-hash.mjs:11`                            | `export const SOURCE_REPOSITORY = 'https://github.com/slide-ng/slide.ng';`                                          |
-| npm-scope   | `slide.ng-skills/skills/slide-ng/references/core-slidev-differences.md:25` | `\| '@slidev/theme-x', Vue themes and addons             \| '@slide-ng/theme-x'; Slidev themes cannot be used ...`  |
-| npm-scope   | `slide.ng-skills/skills/slide-ng/references/theme-official.md:11`          | `\| 'seriph'      \| '@slide-ng/theme-seriph'      \| 'cover'; PT Serif / PT Mono                              ...` |
-| npm-scope   | `slide.ng-skills/skills/slide-ng/references/theme-official.md:12`          | `\| 'shibainu'    \| '@slide-ng/theme-shibainu'    \| 14 layouts; backgrounds are CSS gradients                ...` |
-| npm-scope   | `slide.ng-skills/skills/slide-ng/references/theme-official.md:13`          | `\| 'bricks'      \| '@slide-ng/theme-bricks'      \| 9 layouts; '<polygon-1 />' to '<polygon-11 />'           ...` |
-| npm-scope   | `slide.ng-skills/skills/slide-ng/references/theme-official.md:14`          | `\| 'apple-basic' \| '@slide-ng/theme-apple-basic' \| 10 layouts with props ('image', 'imageLeft', ...)        ...` |
-| npm-scope   | `slide.ng-skills/skills/slide-ng/references/theme-official.md:16`          | `- They live in a separate repository (slide.ng-themes), not in this package. Install first: 'npm i -D @slid...`    |
-| npm-scope   | `slide.ng-skills/skills/slide-ng/references/theme-use.md:16`               | `- A name that is not a path is looked up in 'node_modules' from the deck's folder upwards: '@slide-ng/theme...`    |
-| npm-scope   | `slide.ng-skills/skills/slide-ng/references/theme-use.md:17`               | `- A path that is not a folder, or a package that is not installed, stops the run with the install command (...`    |
-| org-url     | `slide.ng-skills/tests/sync-from-core.test.mjs:27`                         | `assert.equal(written.source.repository, 'https://github.com/slide-ng/slide.ng');`                                  |
-| org-url     | `slide.ng-skills/.github/ISSUE_TEMPLATE/bug_report.yml:8`                  | `The skill is written in the [slide.ng](https://github.com/slide-ng/slide.ng) core repository and mirrored h...`    |
-| org-url     | `slide.ng-skills/.github/ISSUE_TEMPLATE/config.yml:4`                      | `url: https://github.com/slide-ng/slide.ng-skills/security/advisories/new`                                          |
-| org-url     | `slide.ng-skills/.github/ISSUE_TEMPLATE/config.yml:7`                      | `url: https://github.com/slide-ng/slide.ng/issues/new/choose`                                                       |
-| org-url     | `slide.ng-skills/.github/ISSUE_TEMPLATE/feature_request.yml:8`             | `The skill is written in the [slide.ng](https://github.com/slide-ng/slide.ng) core repository and mirrored h...`    |
-| org-url     | `slide.ng-skills/.github/PULL_REQUEST_TEMPLATE.md:3`                       | `> **Changes to the skill content (anything under 'skills/') belong in the [slide.ng](https://github.com/sli...`    |
-| org-url     | `slide.ng-starter/README.md:8`                                             | `A template for [slide.ng](https://github.com/slide-ng/slide.ng): presentations written in markdown, with An...`    |
-| org-url     | `slide.ng-starter/README.md:88`                                            | `[slide.ng-themes](https://github.com/slide-ng/slide.ng-themes) repository, named '@slide-ng/theme-<name>':`        |
-| npm-scope   | `slide.ng-starter/README.md:91`                                            | `npm i -D @slide-ng/theme-seriph     # then: theme: seriph`                                                         |
-| org-url     | `slide.ng-starter/README.md:117`                                           | `The URLs in this file ('github.com/slide-ng/...') are placeholders for the final repository locations.`            |
-| private     | `slide.ng-starter/package.json:4`                                          | `"private": true,`                                                                                                  |
-| npm-scope   | `slide.ng-starter/slides.md:308`                                           | `npm i -D @slide-ng/theme-seriph`                                                                                   |
-| npm-scope   | `slide.ng-themes/CHANGELOG.md:13`                                          | `- Four theme packages, ports of Slidev themes rebuilt for slide.ng's theme contract: '@slide-ng/theme-serip...`    |
-| org-url     | `slide.ng-themes/CHANGELOG.md:18`                                          | `[Unreleased]: https://github.com/slide-ng/slide.ng-themes/compare/v0.1.0...HEAD`                                   |
-| org-url     | `slide.ng-themes/CHANGELOG.md:19`                                          | `[0.1.0]: https://github.com/slide-ng/slide.ng-themes/commits/main`                                                 |
-| org-url     | `slide.ng-themes/CONTRIBUTING.md:12`                                       | `git clone https://github.com/slide-ng/slide.ng-themes.git`                                                         |
-| npm-scope   | `slide.ng-themes/CONTRIBUTING.md:54`                                       | `2. Copy the 'package.json' of an existing package: name '@slide-ng/theme-<name>', 'slide-ng' as a peer depe...`    |
-| org-url     | `slide.ng-themes/README.md:8`                                              | `The official themes of [slide.ng](https://github.com/slide-ng/slide.ng), one npm package each. They are por...`    |
-| npm-scope   | `slide.ng-themes/README.md:13`                                             | `\| 'seriph'      \| ['@slide-ng/theme-seriph'](packages/theme-seriph)           \| [Anthony Fu](https://github...` |
-| npm-scope   | `slide.ng-themes/README.md:14`                                             | `\| 'shibainu'    \| ['@slide-ng/theme-shibainu'](packages/theme-shibainu)       \| [iiiiiiinès](https://githu...`  |
-| npm-scope   | `slide.ng-themes/README.md:15`                                             | `\| 'bricks'      \| ['@slide-ng/theme-bricks'](packages/theme-bricks)           \| [iiiiiiinès](https://githu...`  |
-| npm-scope   | `slide.ng-themes/README.md:16`                                             | `\| 'apple-basic' \| ['@slide-ng/theme-apple-basic'](packages/theme-apple-basic) \| [Jeremy Meissner](https://g...` |
-| npm-scope   | `slide.ng-themes/README.md:23`                                             | `npm i -D @slide-ng/theme-seriph`                                                                                   |
-| npm-scope   | `slide.ng-themes/README.md:32`                                             | `slide.ng looks for 'theme: seriph' in 'node_modules' as '@slide-ng/theme-seriph', then 'slide-ng-theme-seri...`    |
-| org-url     | `slide.ng-themes/README.md:75`                                             | `<td align="center" valign="top" width="14.28%"><a href="https://github.com/erkamyaman"><img src="https://av...`    |
-| org-url     | `slide.ng-themes/README.md:103`                                            | `- [slide.ng](https://github.com/slide-ng/slide.ng): the presentation tool itself.`                                 |
-| org-url     | `slide.ng-themes/README.md:104`                                            | `- [slide.ng-themes](https://github.com/slide-ng/slide.ng-themes): the official themes (this repository).`          |
-| org-url     | `slide.ng-themes/README.md:105`                                            | `- [slide.ng-starter](https://github.com/slide-ng/slide.ng-starter): a starter deck to copy.`                       |
-| org-url     | `slide.ng-themes/README.md:106`                                            | `- [slide.ng-docs](https://github.com/slide-ng/slide.ng-docs): the documentation site.`                             |
-| org-url     | `slide.ng-themes/README.md:107`                                            | `- [slide.ng-docker](https://github.com/slide-ng/slide.ng-docker): a container image for building and servin...`    |
-| org-url     | `slide.ng-themes/README.md:108`                                            | `- [slide.ng-vscode](https://github.com/slide-ng/slide.ng-vscode): a Visual Studio Code extension.`                 |
-| placeholder | `slide.ng-themes/README.md:110`                                            | `These addresses are placeholders until the repositories are published.`                                            |
-| org-url     | `slide.ng-themes/SECURITY.md:7`                                            | `(<https://github.com/slide-ng/slide.ng-themes/security/advisories/new>).`                                          |
-| npm-scope   | `slide.ng-themes/examples/README.md:4`                                     | `'node_modules/@slide-ng/theme-<name>' ('npm install' in this repository links the packages there).`                |
-| npm-scope   | `slide.ng-themes/packages/theme-apple-basic/NOTICE:1`                      | `@slide-ng/theme-apple-basic`                                                                                       |
-| npm-scope   | `slide.ng-themes/packages/theme-apple-basic/README.md:3`                   | `A plain white theme after Keynote's "Basic White": Helvetica Neue, bold headings, photo layouts. Install it...`    |
-| npm-scope   | `slide.ng-themes/packages/theme-apple-basic/package.json:2`                | `"name": "@slide-ng/theme-apple-basic",`                                                                            |
-| org-url     | `slide.ng-themes/packages/theme-apple-basic/package.json:6`                | `"homepage": "https://github.com/slide-ng/themes#readme",`                                                          |
-| org-url     | `slide.ng-themes/packages/theme-apple-basic/package.json:9`                | `"url": "git+https://github.com/slide-ng/themes.git",`                                                              |
-| org-url     | `slide.ng-themes/packages/theme-apple-basic/package.json:12`               | `"bugs": "https://github.com/slide-ng/themes/issues",`                                                              |
-| npm-scope   | `slide.ng-themes/packages/theme-bricks/NOTICE:1`                           | `@slide-ng/theme-bricks`                                                                                            |
-| npm-scope   | `slide.ng-themes/packages/theme-bricks/README.md:3`                        | `A light theme of flat coloured shapes (red, yellow, blue, pink) with a serif title font. Install it with 'n...`    |
-| npm-scope   | `slide.ng-themes/packages/theme-bricks/package.json:2`                     | `"name": "@slide-ng/theme-bricks",`                                                                                 |
-| org-url     | `slide.ng-themes/packages/theme-bricks/package.json:6`                     | `"homepage": "https://github.com/slide-ng/themes#readme",`                                                          |
-| org-url     | `slide.ng-themes/packages/theme-bricks/package.json:9`                     | `"url": "git+https://github.com/slide-ng/themes.git",`                                                              |
-| org-url     | `slide.ng-themes/packages/theme-bricks/package.json:12`                    | `"bugs": "https://github.com/slide-ng/themes/issues",`                                                              |
-| npm-scope   | `slide.ng-themes/packages/theme-seriph/NOTICE:1`                           | `@slide-ng/theme-seriph`                                                                                            |
-| npm-scope   | `slide.ng-themes/packages/theme-seriph/README.md:3`                        | `A theme with serif fonts and a blue-grey accent. Install it with 'npm i -D @slide-ng/theme-seriph' and use ...`    |
-| npm-scope   | `slide.ng-themes/packages/theme-seriph/package.json:2`                     | `"name": "@slide-ng/theme-seriph",`                                                                                 |
-| org-url     | `slide.ng-themes/packages/theme-seriph/package.json:6`                     | `"homepage": "https://github.com/slide-ng/themes#readme",`                                                          |
-| org-url     | `slide.ng-themes/packages/theme-seriph/package.json:9`                     | `"url": "git+https://github.com/slide-ng/themes.git",`                                                              |
-| org-url     | `slide.ng-themes/packages/theme-seriph/package.json:12`                    | `"bugs": "https://github.com/slide-ng/themes/issues",`                                                              |
-| npm-scope   | `slide.ng-themes/packages/theme-shibainu/NOTICE:1`                         | `@slide-ng/theme-shibainu`                                                                                          |
-| npm-scope   | `slide.ng-themes/packages/theme-shibainu/README.md:3`                      | `A dark theme in brown and tan with a light grey text colour. Install it with 'npm i -D @slide-ng/theme-shib...`    |
-| npm-scope   | `slide.ng-themes/packages/theme-shibainu/package.json:2`                   | `"name": "@slide-ng/theme-shibainu",`                                                                               |
-| org-url     | `slide.ng-themes/packages/theme-shibainu/package.json:6`                   | `"homepage": "https://github.com/slide-ng/themes#readme",`                                                          |
-| org-url     | `slide.ng-themes/packages/theme-shibainu/package.json:9`                   | `"url": "git+https://github.com/slide-ng/themes.git",`                                                              |
-| org-url     | `slide.ng-themes/packages/theme-shibainu/package.json:12`                  | `"bugs": "https://github.com/slide-ng/themes/issues",`                                                              |
-| private     | `slide.ng-themes/package.json:3`                                           | `"private": true,`                                                                                                  |
-| npm-scope   | `slide.ng-themes/tests/packages.test.mjs:17`                               | `describe('@slide-ng/theme-${name}', () => {`                                                                       |
-| npm-scope   | `slide.ng-themes/tests/packages.test.mjs:26`                               | `assert.equal(pkg.name, '@slide-ng/theme-${name}');`                                                                |
-| npm-scope   | `slide.ng-themes/tests/themes.mjs:2`                                       | `// Each deck in examples/ uses 'theme: <name>', found in node_modules/@slide-ng/theme-<name> (npm workspace...`    |
-| npm-scope   | `slide.ng-themes/.github/ISSUE_TEMPLATE/bug_report.yml:41`                 | `placeholder: '@slide-ng/theme-seriph 0.1.0, slide.ng 0.1.0 (or a commit)'`                                         |
-| org-url     | `slide.ng-themes/.github/ISSUE_TEMPLATE/config.yml:4`                      | `url: https://github.com/slide-ng/slide.ng-themes/security/advisories/new`                                          |
-| org-url     | `slide.ng-vscode/CHANGELOG.md:20`                                          | `[Unreleased]: https://github.com/slide-ng/slide.ng-vscode/compare/v0.1.0...HEAD`                                   |
-| org-url     | `slide.ng-vscode/CHANGELOG.md:21`                                          | `[0.1.0]: https://github.com/slide-ng/slide.ng-vscode/commits/main`                                                 |
-| org-url     | `slide.ng-vscode/CONTRIBUTING.md:12`                                       | `git clone https://github.com/slide-ng/slide.ng-vscode.git`                                                         |
-| org-url     | `slide.ng-vscode/README.md:8`                                              | `Editor support for [slide.ng](https://github.com/slide-ng/slide.ng) decks (presentations written in 'slides...`    |
-| org-url     | `slide.ng-vscode/README.md:103`                                            | `- [slide.ng](https://github.com/slide-ng/slide.ng): the presentation tool itself.`                                 |
-| org-url     | `slide.ng-vscode/README.md:104`                                            | `- [slide.ng-themes](https://github.com/slide-ng/slide.ng-themes): the official themes.`                            |
-| org-url     | `slide.ng-vscode/README.md:105`                                            | `- [slide.ng-starter](https://github.com/slide-ng/slide.ng-starter): a starter deck to copy.`                       |
-| org-url     | `slide.ng-vscode/README.md:106`                                            | `- [slide.ng-docs](https://github.com/slide-ng/slide.ng-docs): the documentation site.`                             |
-| org-url     | `slide.ng-vscode/README.md:107`                                            | `- [slide.ng-docker](https://github.com/slide-ng/slide.ng-docker): a container image for building and servin...`    |
-| org-url     | `slide.ng-vscode/README.md:108`                                            | `- [slide.ng-vscode](https://github.com/slide-ng/slide.ng-vscode): this extension.`                                 |
-| placeholder | `slide.ng-vscode/README.md:110`                                            | `These addresses are placeholders until the repositories are published.`                                            |
-| org-url     | `slide.ng-vscode/README.md:116`                                            | `The repository URL in 'package.json' ('https://github.com/slide-ng/slide.ng-vscode') and the publisher name...`    |
-| org-url     | `slide.ng-vscode/README.md:140`                                            | `<td align="center" valign="top" width="14.28%"><a href="https://github.com/erkamyaman"><img src="https://av...`    |
-| org-url     | `slide.ng-vscode/SECURITY.md:12`                                           | `(<https://github.com/slide-ng/slide.ng-vscode/security/advisories/new>).`                                          |
-| private     | `slide.ng-vscode/package.json:13`                                          | `"private": true,`                                                                                                  |
-| org-url     | `slide.ng-vscode/package.json:16`                                          | `"url": "https://github.com/slide-ng/slide.ng-vscode"`                                                              |
-| org-url     | `slide.ng-vscode/package.json:18`                                          | `"homepage": "https://github.com/slide-ng/slide.ng-vscode#readme",`                                                 |
-| org-url     | `slide.ng-vscode/package.json:20`                                          | `"url": "https://github.com/slide-ng/slide.ng-vscode/issues"`                                                       |
-| org-url     | `slide.ng-vscode/.github/ISSUE_TEMPLATE/config.yml:4`                      | `url: https://github.com/slide-ng/slide.ng-vscode/security/advisories/new`                                          |
+| org-url     | `docker/CHANGELOG.md:20`                                          | `[Unreleased]: https://github.com/slide-ng/docker/compare/v0.1.0...HEAD`                                   |
+| org-url     | `docker/CHANGELOG.md:21`                                          | `[0.1.0]: https://github.com/slide-ng/docker/commits/main`                                                 |
+| org-url     | `docker/CONTRIBUTING.md:16`                                       | `git clone https://github.com/slide-ng/docker.git`                                                         |
+| org-url     | `docker/README.md:8`                                              | `A Docker image that runs [slide.ng](https://github.com/slide-ng/slide.ng) decks: live dev server, static bu...`    |
+| org-url     | `docker/README.md:232`                                            | `- [slide.ng](https://github.com/slide-ng/slide.ng): the presentation tool itself.`                                 |
+| org-url     | `docker/README.md:233`                                            | `- [themes](https://github.com/slide-ng/themes): the official themes.`                            |
+| org-url     | `docker/README.md:234`                                            | `- [starter](https://github.com/slide-ng/starter): a starter deck to copy.`                       |
+| org-url     | `docker/README.md:235`                                            | `- [docs](https://github.com/slide-ng/docs): the documentation site.`                             |
+| org-url     | `docker/README.md:236`                                            | `- [docker](https://github.com/slide-ng/docker): this container image.`                           |
+| org-url     | `docker/README.md:237`                                            | `- [vscode-extension](https://github.com/slide-ng/vscode-extension): a Visual Studio Code extension.`                 |
+| placeholder | `docker/README.md:239`                                            | `These addresses are placeholders until the repositories are published.`                                            |
+| org-url     | `docker/README.md:245`                                            | `Repository address used in this text: https://github.com/slide-ng/docker (a placeholder until the ...`    |
+| org-url     | `docker/README.md:269`                                            | `<td align="center" valign="top" width="14.28%"><a href="https://github.com/erkamyaman"><img src="https://av...`    |
+| org-url     | `docker/SECURITY.md:8`                                            | `**Report a vulnerability** (https://github.com/slide-ng/docker/security/advisories/new).`                 |
+| org-url     | `docker/.github/ISSUE_TEMPLATE/config.yml:4`                      | `url: https://github.com/slide-ng/docker/security/advisories/new`                                          |
+| org-url     | `docker/.github/workflows/build.yml:20`                           | `SLIDE_NG_REPO: slide-ng/slide.ng`                                                                                  |
+| org-url     | `docker/.github/workflows/build.yml:61`                           | `repository: ${{ env.SLIDE_NG_REPO }}`                                                                              |
+| org-url     | `docs/README.md:3`                                                | `The documentation website for [slide.ng](https://github.com/slide-ng/slide.ng), a slide deck tool that turn...`    |
+| org-url     | `docs/README.md:71`                                               | `The site is built for the root of a host ('https://docs.example.org/') by default. To serve it from a sub-p...`    |
+| org-url     | `docs/README.md:119`                                              | `<td align="center" valign="top" width="14.28%"><a href="https://github.com/erkamyaman"><img src="https://av...`    |
+| private     | `docs/package.json:81`                                            | `"private": true,`                                                                                                  |
+| org-url     | `docs/package.json:84`                                            | `"url": "git+https://github.com/slide-ng/docs.git"`                                                        |
+| org-url     | `docs/package.json:87`                                            | `"url": "https://github.com/slide-ng/docs/issues"`                                                         |
+| org-url     | `docs/package.json:89`                                            | `"homepage": "https://github.com/slide-ng/docs#readme",`                                                   |
+| npm-scope   | `docs/src/content/customize/themes.md:23`                         | `- Any other name is looked up in 'node_modules', from the deck's folder upwards: '@slide-ng/theme-<name>', ...`    |
+| npm-scope   | `docs/src/content/customize/themes.md:32`                         | `npm i -D @slide-ng/theme-seriph`                                                                                   |
+| npm-scope   | `docs/src/content/customize/theme-gallery.md:8`                   | `The official themes are ports of the official Slidev themes, rebuilt as Angular code for slide.ng. Each one...`    |
+| npm-scope   | `docs/src/content/customize/writing-a-theme.md:88`                | `A theme is a folder, so publish it as an npm package with these folders at the top of the package. slide.ng...`    |
+| org-url     | `docs/src/content/features/format.md:18`                          | `Files that 'src:' imports are not touched. Name them as arguments to format them too. A file that is alread...`    |
+| org-url     | `docs/src/content/getting-started/install.md:23`                  | `git clone https://github.com/slide-ng/slide.ng.git`                                                                |
+| org-url     | `docs/src/content/project/contributing.md:13`                     | `git clone https://github.com/slide-ng/slide.ng.git`                                                                |
+| placeholder | `docs/src/ngmd.config.ts:149`                                     | `// Placeholder origin. For a project site (github.io/<repo>/) set 'base' below, or build with`                     |
+| org-url     | `docs/src/ngmd.config.ts:154`                                     | `githubUrl: 'https://github.com/slide-ng/docs',`                                                           |
+| org-url     | `skills/CHANGELOG.md:18`                                          | `[Unreleased]: https://github.com/slide-ng/skills/compare/v0.0.0...HEAD`                                   |
+| org-url     | `skills/CHANGELOG.md:19`                                          | `[0.0.0]: https://github.com/slide-ng/skills/commits/main`                                                 |
+| org-url     | `skills/CONTRIBUTING.md:5`                                        | `**Do not edit anything under 'skills/' in this repository.** It is a mirror of 'skills/slide-ng' in the [sl...`    |
+| org-url     | `skills/CONTRIBUTING.md:32`                                       | `git clone https://github.com/slide-ng/skills.git`                                                         |
+| org-url     | `skills/README.md:8`                                              | `A standalone, installable copy of the agent skill for [slide.ng](https://github.com/slide-ng/slide.ng): a f...`    |
+| org-url     | `skills/README.md:51`                                             | `git clone --depth 1 https://github.com/slide-ng/skills.git`                                               |
+| org-url     | `skills/README.md:114`                                            | `- [slide.ng](https://github.com/slide-ng/slide.ng): the presentation tool itself, and the source of this sk...`    |
+| org-url     | `skills/README.md:115`                                            | `- [themes](https://github.com/slide-ng/themes): the official themes.`                            |
+| org-url     | `skills/README.md:116`                                            | `- [starter](https://github.com/slide-ng/starter): a starter deck to copy.`                       |
+| org-url     | `skills/README.md:117`                                            | `- [docs](https://github.com/slide-ng/docs): the documentation site.`                             |
+| org-url     | `skills/README.md:118`                                            | `- [docker](https://github.com/slide-ng/docker): a container image for building and servin...`    |
+| org-url     | `skills/README.md:119`                                            | `- [vscode-extension](https://github.com/slide-ng/vscode-extension): a Visual Studio Code extension.`                 |
+| org-url     | `skills/README.md:120`                                            | `- [skills](https://github.com/slide-ng/skills): the agent skill (this repository).`              |
+| org-url     | `skills/README.md:121`                                            | `- [slide.ng-org-github](https://github.com/slide-ng/slide.ng-org-github): the organization's '.github' repo...`    |
+| placeholder | `skills/README.md:123`                                            | `These addresses are placeholders until the repositories are published.`                                            |
+| org-url     | `skills/SECURITY.md:7`                                            | `(<https://github.com/slide-ng/skills/security/advisories/new>).`                                          |
+| org-url     | `skills/SOURCE.json:4`                                            | `"repository": "https://github.com/slide-ng/slide.ng",`                                                             |
+| private     | `skills/package.json:3`                                           | `"private": true,`                                                                                                  |
+| org-url     | `skills/scripts/lib/skill-hash.mjs:11`                            | `export const SOURCE_REPOSITORY = 'https://github.com/slide-ng/slide.ng';`                                          |
+| npm-scope   | `skills/skills/slide-ng/references/core-slidev-differences.md:25` | `\| '@slidev/theme-x', Vue themes and addons             \| '@slide-ng/theme-x'; Slidev themes cannot be used ...`  |
+| npm-scope   | `skills/skills/slide-ng/references/theme-official.md:11`          | `\| 'seriph'      \| '@slide-ng/theme-seriph'      \| 'cover'; PT Serif / PT Mono                              ...` |
+| npm-scope   | `skills/skills/slide-ng/references/theme-official.md:12`          | `\| 'shibainu'    \| '@slide-ng/theme-shibainu'    \| 14 layouts; backgrounds are CSS gradients                ...` |
+| npm-scope   | `skills/skills/slide-ng/references/theme-official.md:13`          | `\| 'bricks'      \| '@slide-ng/theme-bricks'      \| 9 layouts; '<polygon-1 />' to '<polygon-11 />'           ...` |
+| npm-scope   | `skills/skills/slide-ng/references/theme-official.md:14`          | `\| 'apple-basic' \| '@slide-ng/theme-apple-basic' \| 10 layouts with props ('image', 'imageLeft', ...)        ...` |
+| npm-scope   | `skills/skills/slide-ng/references/theme-official.md:16`          | `- They live in a separate repository (themes), not in this package. Install first: 'npm i -D @slid...`    |
+| npm-scope   | `skills/skills/slide-ng/references/theme-use.md:16`               | `- A name that is not a path is looked up in 'node_modules' from the deck's folder upwards: '@slide-ng/theme...`    |
+| npm-scope   | `skills/skills/slide-ng/references/theme-use.md:17`               | `- A path that is not a folder, or a package that is not installed, stops the run with the install command (...`    |
+| org-url     | `skills/tests/sync-from-core.test.mjs:27`                         | `assert.equal(written.source.repository, 'https://github.com/slide-ng/slide.ng');`                                  |
+| org-url     | `skills/.github/ISSUE_TEMPLATE/bug_report.yml:8`                  | `The skill is written in the [slide.ng](https://github.com/slide-ng/slide.ng) core repository and mirrored h...`    |
+| org-url     | `skills/.github/ISSUE_TEMPLATE/config.yml:4`                      | `url: https://github.com/slide-ng/skills/security/advisories/new`                                          |
+| org-url     | `skills/.github/ISSUE_TEMPLATE/config.yml:7`                      | `url: https://github.com/slide-ng/slide.ng/issues/new/choose`                                                       |
+| org-url     | `skills/.github/ISSUE_TEMPLATE/feature_request.yml:8`             | `The skill is written in the [slide.ng](https://github.com/slide-ng/slide.ng) core repository and mirrored h...`    |
+| org-url     | `skills/.github/PULL_REQUEST_TEMPLATE.md:3`                       | `> **Changes to the skill content (anything under 'skills/') belong in the [slide.ng](https://github.com/sli...`    |
+| org-url     | `starter/README.md:8`                                             | `A template for [slide.ng](https://github.com/slide-ng/slide.ng): presentations written in markdown, with An...`    |
+| org-url     | `starter/README.md:88`                                            | `[themes](https://github.com/slide-ng/themes) repository, named '@slide-ng/theme-<name>':`        |
+| npm-scope   | `starter/README.md:91`                                            | `npm i -D @slide-ng/theme-seriph     # then: theme: seriph`                                                         |
+| org-url     | `starter/README.md:117`                                           | `The URLs in this file ('github.com/slide-ng/...') are placeholders for the final repository locations.`            |
+| private     | `starter/package.json:4`                                          | `"private": true,`                                                                                                  |
+| npm-scope   | `starter/slides.md:308`                                           | `npm i -D @slide-ng/theme-seriph`                                                                                   |
+| npm-scope   | `themes/CHANGELOG.md:13`                                          | `- Four theme packages, ports of Slidev themes rebuilt for slide.ng's theme contract: '@slide-ng/theme-serip...`    |
+| org-url     | `themes/CHANGELOG.md:18`                                          | `[Unreleased]: https://github.com/slide-ng/themes/compare/v0.1.0...HEAD`                                   |
+| org-url     | `themes/CHANGELOG.md:19`                                          | `[0.1.0]: https://github.com/slide-ng/themes/commits/main`                                                 |
+| org-url     | `themes/CONTRIBUTING.md:12`                                       | `git clone https://github.com/slide-ng/themes.git`                                                         |
+| npm-scope   | `themes/CONTRIBUTING.md:54`                                       | `2. Copy the 'package.json' of an existing package: name '@slide-ng/theme-<name>', 'slide-ng' as a peer depe...`    |
+| org-url     | `themes/README.md:8`                                              | `The official themes of [slide.ng](https://github.com/slide-ng/slide.ng), one npm package each. They are por...`    |
+| npm-scope   | `themes/README.md:13`                                             | `\| 'seriph'      \| ['@slide-ng/theme-seriph'](packages/theme-seriph)           \| [Anthony Fu](https://github...` |
+| npm-scope   | `themes/README.md:14`                                             | `\| 'shibainu'    \| ['@slide-ng/theme-shibainu'](packages/theme-shibainu)       \| [iiiiiiinès](https://githu...`  |
+| npm-scope   | `themes/README.md:15`                                             | `\| 'bricks'      \| ['@slide-ng/theme-bricks'](packages/theme-bricks)           \| [iiiiiiinès](https://githu...`  |
+| npm-scope   | `themes/README.md:16`                                             | `\| 'apple-basic' \| ['@slide-ng/theme-apple-basic'](packages/theme-apple-basic) \| [Jeremy Meissner](https://g...` |
+| npm-scope   | `themes/README.md:23`                                             | `npm i -D @slide-ng/theme-seriph`                                                                                   |
+| npm-scope   | `themes/README.md:32`                                             | `slide.ng looks for 'theme: seriph' in 'node_modules' as '@slide-ng/theme-seriph', then 'slide-ng-theme-seri...`    |
+| org-url     | `themes/README.md:75`                                             | `<td align="center" valign="top" width="14.28%"><a href="https://github.com/erkamyaman"><img src="https://av...`    |
+| org-url     | `themes/README.md:103`                                            | `- [slide.ng](https://github.com/slide-ng/slide.ng): the presentation tool itself.`                                 |
+| org-url     | `themes/README.md:104`                                            | `- [themes](https://github.com/slide-ng/themes): the official themes (this repository).`          |
+| org-url     | `themes/README.md:105`                                            | `- [starter](https://github.com/slide-ng/starter): a starter deck to copy.`                       |
+| org-url     | `themes/README.md:106`                                            | `- [docs](https://github.com/slide-ng/docs): the documentation site.`                             |
+| org-url     | `themes/README.md:107`                                            | `- [docker](https://github.com/slide-ng/docker): a container image for building and servin...`    |
+| org-url     | `themes/README.md:108`                                            | `- [vscode-extension](https://github.com/slide-ng/vscode-extension): a Visual Studio Code extension.`                 |
+| placeholder | `themes/README.md:110`                                            | `These addresses are placeholders until the repositories are published.`                                            |
+| org-url     | `themes/SECURITY.md:7`                                            | `(<https://github.com/slide-ng/themes/security/advisories/new>).`                                          |
+| npm-scope   | `themes/examples/README.md:4`                                     | `'node_modules/@slide-ng/theme-<name>' ('npm install' in this repository links the packages there).`                |
+| npm-scope   | `themes/packages/theme-apple-basic/NOTICE:1`                      | `@slide-ng/theme-apple-basic`                                                                                       |
+| npm-scope   | `themes/packages/theme-apple-basic/README.md:3`                   | `A plain white theme after Keynote's "Basic White": Helvetica Neue, bold headings, photo layouts. Install it...`    |
+| npm-scope   | `themes/packages/theme-apple-basic/package.json:2`                | `"name": "@slide-ng/theme-apple-basic",`                                                                            |
+| org-url     | `themes/packages/theme-apple-basic/package.json:6`                | `"homepage": "https://github.com/slide-ng/themes#readme",`                                                          |
+| org-url     | `themes/packages/theme-apple-basic/package.json:9`                | `"url": "git+https://github.com/slide-ng/themes.git",`                                                              |
+| org-url     | `themes/packages/theme-apple-basic/package.json:12`               | `"bugs": "https://github.com/slide-ng/themes/issues",`                                                              |
+| npm-scope   | `themes/packages/theme-bricks/NOTICE:1`                           | `@slide-ng/theme-bricks`                                                                                            |
+| npm-scope   | `themes/packages/theme-bricks/README.md:3`                        | `A light theme of flat coloured shapes (red, yellow, blue, pink) with a serif title font. Install it with 'n...`    |
+| npm-scope   | `themes/packages/theme-bricks/package.json:2`                     | `"name": "@slide-ng/theme-bricks",`                                                                                 |
+| org-url     | `themes/packages/theme-bricks/package.json:6`                     | `"homepage": "https://github.com/slide-ng/themes#readme",`                                                          |
+| org-url     | `themes/packages/theme-bricks/package.json:9`                     | `"url": "git+https://github.com/slide-ng/themes.git",`                                                              |
+| org-url     | `themes/packages/theme-bricks/package.json:12`                    | `"bugs": "https://github.com/slide-ng/themes/issues",`                                                              |
+| npm-scope   | `themes/packages/theme-seriph/NOTICE:1`                           | `@slide-ng/theme-seriph`                                                                                            |
+| npm-scope   | `themes/packages/theme-seriph/README.md:3`                        | `A theme with serif fonts and a blue-grey accent. Install it with 'npm i -D @slide-ng/theme-seriph' and use ...`    |
+| npm-scope   | `themes/packages/theme-seriph/package.json:2`                     | `"name": "@slide-ng/theme-seriph",`                                                                                 |
+| org-url     | `themes/packages/theme-seriph/package.json:6`                     | `"homepage": "https://github.com/slide-ng/themes#readme",`                                                          |
+| org-url     | `themes/packages/theme-seriph/package.json:9`                     | `"url": "git+https://github.com/slide-ng/themes.git",`                                                              |
+| org-url     | `themes/packages/theme-seriph/package.json:12`                    | `"bugs": "https://github.com/slide-ng/themes/issues",`                                                              |
+| npm-scope   | `themes/packages/theme-shibainu/NOTICE:1`                         | `@slide-ng/theme-shibainu`                                                                                          |
+| npm-scope   | `themes/packages/theme-shibainu/README.md:3`                      | `A dark theme in brown and tan with a light grey text colour. Install it with 'npm i -D @slide-ng/theme-shib...`    |
+| npm-scope   | `themes/packages/theme-shibainu/package.json:2`                   | `"name": "@slide-ng/theme-shibainu",`                                                                               |
+| org-url     | `themes/packages/theme-shibainu/package.json:6`                   | `"homepage": "https://github.com/slide-ng/themes#readme",`                                                          |
+| org-url     | `themes/packages/theme-shibainu/package.json:9`                   | `"url": "git+https://github.com/slide-ng/themes.git",`                                                              |
+| org-url     | `themes/packages/theme-shibainu/package.json:12`                  | `"bugs": "https://github.com/slide-ng/themes/issues",`                                                              |
+| private     | `themes/package.json:3`                                           | `"private": true,`                                                                                                  |
+| npm-scope   | `themes/tests/packages.test.mjs:17`                               | `describe('@slide-ng/theme-${name}', () => {`                                                                       |
+| npm-scope   | `themes/tests/packages.test.mjs:26`                               | `assert.equal(pkg.name, '@slide-ng/theme-${name}');`                                                                |
+| npm-scope   | `themes/tests/themes.mjs:2`                                       | `// Each deck in examples/ uses 'theme: <name>', found in node_modules/@slide-ng/theme-<name> (npm workspace...`    |
+| npm-scope   | `themes/.github/ISSUE_TEMPLATE/bug_report.yml:41`                 | `placeholder: '@slide-ng/theme-seriph 0.1.0, slide.ng 0.1.0 (or a commit)'`                                         |
+| org-url     | `themes/.github/ISSUE_TEMPLATE/config.yml:4`                      | `url: https://github.com/slide-ng/themes/security/advisories/new`                                          |
+| org-url     | `vscode-extension/CHANGELOG.md:20`                                          | `[Unreleased]: https://github.com/slide-ng/vscode-extension/compare/v0.1.0...HEAD`                                   |
+| org-url     | `vscode-extension/CHANGELOG.md:21`                                          | `[0.1.0]: https://github.com/slide-ng/vscode-extension/commits/main`                                                 |
+| org-url     | `vscode-extension/CONTRIBUTING.md:12`                                       | `git clone https://github.com/slide-ng/vscode-extension.git`                                                         |
+| org-url     | `vscode-extension/README.md:8`                                              | `Editor support for [slide.ng](https://github.com/slide-ng/slide.ng) decks (presentations written in 'slides...`    |
+| org-url     | `vscode-extension/README.md:103`                                            | `- [slide.ng](https://github.com/slide-ng/slide.ng): the presentation tool itself.`                                 |
+| org-url     | `vscode-extension/README.md:104`                                            | `- [themes](https://github.com/slide-ng/themes): the official themes.`                            |
+| org-url     | `vscode-extension/README.md:105`                                            | `- [starter](https://github.com/slide-ng/starter): a starter deck to copy.`                       |
+| org-url     | `vscode-extension/README.md:106`                                            | `- [docs](https://github.com/slide-ng/docs): the documentation site.`                             |
+| org-url     | `vscode-extension/README.md:107`                                            | `- [docker](https://github.com/slide-ng/docker): a container image for building and servin...`    |
+| org-url     | `vscode-extension/README.md:108`                                            | `- [vscode-extension](https://github.com/slide-ng/vscode-extension): this extension.`                                 |
+| placeholder | `vscode-extension/README.md:110`                                            | `These addresses are placeholders until the repositories are published.`                                            |
+| org-url     | `vscode-extension/README.md:116`                                            | `The repository URL in 'package.json' ('https://github.com/slide-ng/vscode-extension') and the publisher name...`    |
+| org-url     | `vscode-extension/README.md:140`                                            | `<td align="center" valign="top" width="14.28%"><a href="https://github.com/erkamyaman"><img src="https://av...`    |
+| org-url     | `vscode-extension/SECURITY.md:12`                                           | `(<https://github.com/slide-ng/vscode-extension/security/advisories/new>).`                                          |
+| private     | `vscode-extension/package.json:13`                                          | `"private": true,`                                                                                                  |
+| org-url     | `vscode-extension/package.json:16`                                          | `"url": "https://github.com/slide-ng/vscode-extension"`                                                              |
+| org-url     | `vscode-extension/package.json:18`                                          | `"homepage": "https://github.com/slide-ng/vscode-extension#readme",`                                                 |
+| org-url     | `vscode-extension/package.json:20`                                          | `"url": "https://github.com/slide-ng/vscode-extension/issues"`                                                       |
+| org-url     | `vscode-extension/.github/ISSUE_TEMPLATE/config.yml:4`                      | `url: https://github.com/slide-ng/vscode-extension/security/advisories/new`                                          |
 | org-url     | `slide.ng/CHANGELOG.md:61`                                                 | `[Unreleased]: https://github.com/slide-ng/slide.ng/compare/v0.1.0...HEAD`                                          |
 | org-url     | `slide.ng/CHANGELOG.md:62`                                                 | `[0.1.0]: https://github.com/slide-ng/slide.ng/commits/main`                                                        |
 | org-url     | `slide.ng/CONTRIBUTING.md:12`                                              | `git clone https://github.com/slide-ng/slide.ng.git`                                                                |
 | npm-scope   | `slide.ng/README.md:70`                                                    | `Hosting, '--base', the PDF button, the offline mode and the head tags are in [docs/HOSTING.md](docs/HOSTING...`    |
 | npm-scope   | `slide.ng/README.md:101`                                                   | `- The official themes 'seriph', 'shibainu', 'bricks' and 'apple-basic' (and 'default', the built-in look) a...`    |
-| npm-scope   | `slide.ng/README.md:161`                                                   | `- slide.ng-themes: the official themes, as '@slide-ng/theme-<name>' packages.`                                     |
+| npm-scope   | `slide.ng/README.md:161`                                                   | `- themes: the official themes, as '@slide-ng/theme-<name>' packages.`                                     |
 | org-url     | `slide.ng/README.md:194`                                                   | `<td align="center" valign="top" width="14.28%"><a href="https://github.com/erkamyaman"><img src="https://av...`    |
 | org-url     | `slide.ng/SECURITY.md:10`                                                  | `(<https://github.com/slide-ng/slide.ng/security/advisories/new>). Please do not open a public issue for a s...`    |
 | npm-scope   | `slide.ng/docs/DECISIONS.md:308`                                           | `'slidev-theme-name', then 'name'; slide.ng looks for '@slide-ng/theme-name', 'slide-ng-theme-name', then 'n...`    |
@@ -193,7 +193,7 @@ by repository:
 | npm-scope   | `slide.ng/docs/SYNTAX.md:667`                                              | `theme: ./my-theme # a folder next to the deck, or a package: 'ocean' means @slide-ng/theme-ocean or slide-n...`    |
 | npm-scope   | `slide.ng/docs/THEMES.md:18`                                               | `- Any other name that is not a path is looked up in 'node_modules' (from the deck's folder upwards), like S...`    |
 | npm-scope   | `slide.ng/docs/THEMES.md:19`                                               | `then 'slide-ng-theme-<name>', then '<name>'. A scoped name ('@scope/theme-x') is used as written. Addons us...`    |
-| npm-scope   | `slide.ng/docs/THEMES.md:22`                                               | `(slide.ng-themes, one package each): 'npm i -D @slide-ng/theme-seriph', then 'theme: seriph' (see below).`         |
+| npm-scope   | `slide.ng/docs/THEMES.md:22`                                               | `(themes, one package each): 'npm i -D @slide-ng/theme-seriph', then 'theme: seriph' (see below).`         |
 | npm-scope   | `slide.ng/docs/THEMES.md:24`                                               | `'The theme "x" was not found. Install it with: npm install -D slide-ng-theme-x' (for an official name the p...`    |
 | npm-scope   | `slide.ng/docs/THEMES.md:34`                                               | `'@slide-ng/theme-<name>' that follow the contract below. Each has a README that credits the original author...`    |
 | npm-scope   | `slide.ng/docs/THEMES.md:40`                                               | `\| 'seriph'      \| '@slide-ng/theme-seriph'                                               \| '@slidev/theme-s...` |
@@ -209,7 +209,7 @@ by repository:
 | npm-scope   | `slide.ng/scripts/lib/install-root.mjs:16`                                 | `/** '{ command: 'npm install -D @slide-ng/theme-x', file, args }' for a package, run in the deck's folder. */`     |
 | npm-scope   | `slide.ng/scripts/lib/install-root.spec.ts:7`                              | `const error = { kind: 'theme', spec: 'seriph', pkg: '@slide-ng/theme-seriph' };`                                   |
 | npm-scope   | `slide.ng/scripts/lib/install-root.spec.ts:35`                             | `expect(run).toHaveBeenCalledWith('npm', ['install', '-D', '@slide-ng/theme-seriph']);`                             |
-| npm-scope   | `slide.ng/scripts/lib/roots.mjs:29`                                        | `// The official themes are packages in the separate slide.ng-themes repository ('@slide-ng/theme-<name>').`        |
+| npm-scope   | `slide.ng/scripts/lib/roots.mjs:29`                                        | `// The official themes are packages in the separate themes repository ('@slide-ng/theme-<name>').`        |
 | npm-scope   | `slide.ng/scripts/lib/roots.mjs:38`                                        | `* 'ocean' as a theme is '@slide-ng/theme-ocean', 'slide-ng-theme-ocean', then 'ocean'. A scoped name is use...`    |
 | npm-scope   | `slide.ng/scripts/lib/roots.mjs:42`                                        | `return ['@slide-ng/${kind}-${spec}', 'slide-ng-${kind}-${spec}', spec];`                                           |
 | npm-scope   | `slide.ng/scripts/lib/roots.mjs:48`                                        | `if (kind === 'theme' && OFFICIAL_THEMES.includes(spec)) return '@slide-ng/theme-${spec}';`                         |
@@ -223,7 +223,7 @@ by repository:
 | npm-scope   | `slide.ng/skills/slide-ng/references/theme-official.md:12`                 | `\| 'shibainu'    \| '@slide-ng/theme-shibainu'    \| 14 layouts; backgrounds are CSS gradients                ...` |
 | npm-scope   | `slide.ng/skills/slide-ng/references/theme-official.md:13`                 | `\| 'bricks'      \| '@slide-ng/theme-bricks'      \| 9 layouts; '<polygon-1 />' to '<polygon-11 />'           ...` |
 | npm-scope   | `slide.ng/skills/slide-ng/references/theme-official.md:14`                 | `\| 'apple-basic' \| '@slide-ng/theme-apple-basic' \| 10 layouts with props ('image', 'imageLeft', ...)        ...` |
-| npm-scope   | `slide.ng/skills/slide-ng/references/theme-official.md:16`                 | `- They live in a separate repository (slide.ng-themes), not in this package. Install first: 'npm i -D @slid...`    |
+| npm-scope   | `slide.ng/skills/slide-ng/references/theme-official.md:16`                 | `- They live in a separate repository (themes), not in this package. Install first: 'npm i -D @slid...`    |
 | npm-scope   | `slide.ng/skills/slide-ng/references/theme-use.md:16`                      | `- A name that is not a path is looked up in 'node_modules' from the deck's folder upwards: '@slide-ng/theme...`    |
 | npm-scope   | `slide.ng/skills/slide-ng/references/theme-use.md:17`                      | `- A path that is not a folder, or a package that is not installed, stops the run with the install command (...`    |
 | npm-scope   | `slide.ng/tests/export/theme.mjs:187`                                      | `// ---- a theme by name from node_modules: a copy of the example theme stands in for the package @slide-ng/...`    |

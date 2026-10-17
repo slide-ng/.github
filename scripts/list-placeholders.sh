@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Lists the placeholders that have to change before launch, in the sibling
-# repositories (slide.ng, slide.ng-themes, slide.ng-starter, ...).
+# repositories (slide.ng, themes, starter, ...).
 #
 #   scripts/list-placeholders.sh [--summary] [parent-folder]
 #
@@ -28,7 +28,7 @@ done
 here="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 parent="${parent:-$(dirname "$here")}"
 
-repos=(slide.ng slide.ng-themes slide.ng-starter slide.ng-docs slide.ng-docker slide.ng-vscode slide.ng-skills)
+repos=(slide.ng themes starter docs docker vscode-extension skills)
 tab=$'\t'
 
 scan() { # category, extended regex, [grep -v filter], [file glob]
@@ -40,7 +40,7 @@ scan() { # category, extended regex, [grep -v filter], [file glob]
       --exclude-dir=.slide-ng --exclude-dir=coverage --include="$inc" \
       --exclude=package-lock.json --exclude=pnpm-lock.yaml --exclude=yarn.lock \
       --exclude='*.vsix' --exclude='*.zip' --exclude='*.map' 2>/dev/null || true) |
-      grep -v 'slide.ng-docs/public/demos/' | grep -vE "$drop" |
+      grep -v 'docs/public/demos/' | grep -vE "$drop" |
       sed -E 's/^([^:]+):([0-9]+):[[:space:]]*(.*)$/\1:\2\t\3/' |
       awk -v cat="$cat" -F'\t' '{ t=$2; if (length(t)>110) t=substr(t,1,107) "..."; print cat "\t" $1 "\t" t }'
   done
