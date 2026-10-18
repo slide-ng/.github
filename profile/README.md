@@ -12,10 +12,10 @@ Slidev-style slides written in markdown and compiled with Angular.
 | repository                                                           | what it is                                  |
 | -------------------------------------------------------------------- | ------------------------------------------- |
 | [slide.ng](https://github.com/slide-ng/slide.ng)                     | the core app and the command line           |
-| [starter](https://github.com/slide-ng/starter)                       | a template deck to start from               |
 | [docs](https://github.com/slide-ng/docs)                             | the documentation site                      |
-| [showcases](https://github.com/slide-ng/showcases) | thirty-one example decks, live as a gallery                   |
+| [starter](https://github.com/slide-ng/starter)                       | a template deck to start from               |
 | [themes](https://github.com/slide-ng/themes)                         | the official themes                         |
+| [showcases](https://github.com/slide-ng/showcases) | thirty-one example decks, live as a gallery                   |
 | [docker](https://github.com/slide-ng/docker)                         | a Docker image to build and serve decks     |
 | [vscode-extension](https://github.com/slide-ng/vscode-extension)     | the Visual Studio Code extension            |
 | [skills](https://github.com/slide-ng/skills)                         | an agent skill, mirrored from the core      |
