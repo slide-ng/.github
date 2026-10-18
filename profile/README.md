@@ -18,7 +18,7 @@ Slidev-style slides written in markdown and compiled with Angular.
 | [docker](https://github.com/slide-ng/docker)                         | a Docker image to build and serve decks     |
 | [vscode-extension](https://github.com/slide-ng/vscode-extension)     | the Visual Studio Code extension            |
 | [skills](https://github.com/slide-ng/skills)                         | an agent skill, mirrored from the core      |
-| [slide.ng-showcases](https://github.com/slide-ng/slide.ng-showcases) | thirty-one example decks, live as a gallery |
+| [showcases](https://github.com/slide-ng/showcases) | thirty-one example decks, live as a gallery |
 
 ## Links
 

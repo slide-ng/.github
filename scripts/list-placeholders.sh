@@ -28,7 +28,7 @@ done
 here="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 parent="${parent:-$(dirname "$here")}"
 
-repos=(slide.ng themes starter docs docker vscode-extension skills)
+repos=(slide.ng themes starter docs docker vscode-extension skills showcases)
 tab=$'\t'
 
 scan() { # category, extended regex, [grep -v filter], [file glob]
