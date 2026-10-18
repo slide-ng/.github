@@ -90,4 +90,4 @@ slide.ng is free and open source. If it helps your work, please consider sponsor
 
 ## License
 
-MIT, see [LICENSE](LICENSE). Note that GitHub never inherits a license file.
+MIT License © 2026 [Erkam Yaman](https://github.com/erkamyaman) ([LICENSE](LICENSE)). Note that GitHub never inherits a license file.
